@@ -10,6 +10,6 @@ $replacemants = [
   'weight' => 83.4
 ];
 
-$result = Chrissileinus\Template\Engine::replaceF($template, $replacemants);
+$result = Chrissileinus\Template\Str::replaceF($template, $replacemants);
 
 echo $result . PHP_EOL;

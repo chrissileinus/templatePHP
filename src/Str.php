@@ -2,7 +2,7 @@
 
 namespace Chrissileinus\Template;
 
-class Engine
+class Str
 {
   public static $left = '{';
   public static $right = '}';
