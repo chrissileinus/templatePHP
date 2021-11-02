@@ -1,0 +1,16 @@
+{
+    "name": "chrissileinus/template-php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Chrissileinus\\TemplatePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Backus",
+            "email": "chrissileinus@googlemail.com"
+        }
+    ],
+    "require": {}
+}
