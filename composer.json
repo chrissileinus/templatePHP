@@ -3,7 +3,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Chrissileinus\\TemplatePhp\\": "src/"
+            "Chrissileinus\\Template\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,13 @@
             "email": "chrissileinus@googlemail.com"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/chrissileinus/AnsiPHP"
+        }
+    ],
+    "require": {
+        "chrissileinus/ansiphp": "dev-master"
+    }
 }

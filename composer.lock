@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2c48e395cb912303a934932f2285626c",
+    "packages": [
+        {
+            "name": "chrissileinus/ansiphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/chrissileinus/ansiPHP.git",
+                "reference": "d9f4f4b00621c5b6469502948ba1177986f46f2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/chrissileinus%2FAnsiPHP/repository/archive.zip?sha=d9f4f4b00621c5b6469502948ba1177986f46f2d",
+                "reference": "d9f4f4b00621c5b6469502948ba1177986f46f2d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chrissileinus\\Ansi\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "chrissileinus",
+                    "email": "chrissileinus@googlemail.com"
+                }
+            ],
+            "time": "2021-10-27T09:38:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "chrissileinus/ansiphp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
