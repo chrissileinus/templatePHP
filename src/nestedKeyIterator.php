@@ -31,7 +31,7 @@ use RecursiveArrayIterator;
  */
 class nestedKeyIterator extends \RecursiveIteratorIterator
 {
-  private $stack = array();
+  private $stack = [];
   private $keySeparator;
 
   public function __construct(\Traversable $iterator, $separator = '.', $mode = \RecursiveIteratorIterator::LEAVES_ONLY, $flags = 0)

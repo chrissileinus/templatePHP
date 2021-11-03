@@ -29,6 +29,11 @@ class Str
 
   public static function replaceF(string $template, array ...$replacements): string
   {
+    return self::replaceFormat($template, ...$replacements);
+  }
+
+  public static function replaceFormat(string $template, array ...$replacements): string
+  {
     //Performance: if there are no '%' fallback to self::string
     if (strstr($template, '%') == false && strstr($template, '&') == false) {
       return self::replace($template, ...$replacements);
