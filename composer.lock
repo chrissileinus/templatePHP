@@ -4,26 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c48e395cb912303a934932f2285626c",
+    "content-hash": "4bd5a7e7c1d71371bfc35dc401595703",
     "packages": [
         {
-            "name": "chrissileinus/ansiphp",
-            "version": "dev-master",
+            "name": "chrissileinus/ansi-php",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/chrissileinus/ansiPHP.git",
-                "reference": "d9f4f4b00621c5b6469502948ba1177986f46f2d"
+                "reference": "c25c3450072da5fb84092d98fcb8ca15533a535d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/chrissileinus%2FAnsiPHP/repository/archive.zip?sha=d9f4f4b00621c5b6469502948ba1177986f46f2d",
-                "reference": "d9f4f4b00621c5b6469502948ba1177986f46f2d",
+                "url": "https://gitlab.com/api/v4/projects/chrissileinus%2FansiPHP/repository/archive.zip?sha=c25c3450072da5fb84092d98fcb8ca15533a535d",
+                "reference": "c25c3450072da5fb84092d98fcb8ca15533a535d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -36,15 +35,16 @@
                     "email": "chrissileinus@googlemail.com"
                 }
             ],
-            "time": "2021-10-27T09:38:36+00:00"
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/30778519/issues"
+            },
+            "time": "2021-11-03T06:16:53+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "chrissileinus/ansiphp": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
