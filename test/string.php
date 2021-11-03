@@ -7,7 +7,6 @@ echo Chrissileinus\Template\Str::replace(
   ['nic']
 ) . PHP_EOL;
 
-
 echo Chrissileinus\Template\Str::replace(
   "My name is {name} {surname}",
   [
