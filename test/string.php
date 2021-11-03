@@ -2,7 +2,7 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
-$template = "my name is {user.name&user.color} and my arge is {age&f_blue} {[{weight%6.2f}]&test.style}";
+$template = "my name is {user.name&user.color} and my age is {age&f_blue} {[{weight%6.2f}]&test.style}";
 
 $replacements = [
   'user' => [
