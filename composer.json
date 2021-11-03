@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.com/chrissileinus/AnsiPHP"
+            "url": "https://gitlab.com/chrissileinus/ansiPHP"
         }
     ],
     "require": {
