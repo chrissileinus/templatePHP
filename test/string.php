@@ -2,6 +2,7 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
+echo "This is my value: {0}" . PHP_EOL;
 echo Chrissileinus\Template\Str::replace(
   "This is my value: {0}",
   ['nic']
