@@ -1,6 +1,6 @@
 # templatePHP
 
-A template engine to generate strings from a template. Also it is prossible to colorize parts with ANSI codes with the help of the [ansiPHP](https://gitlab.com/chrissileinus/ansiPHP) class.
+A template engine to generate strings from a template. It is also prossible to colorize parts with ANSI codes with the help of the [ansiPHP](https://gitlab.com/chrissileinus/ansiPHP) class.
 
 ## Why
 
