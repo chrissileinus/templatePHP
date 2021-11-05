@@ -2,7 +2,7 @@
     "name": "chrissileinus/template-php",
     "type": "library",
     "license": "MIT",
-    "description": "A template engine to generate strings from a template. Also it is prossible to colorize parts with ANSI codes with the help of the ansiPHP class.",
+    "description": "A template engine to generate strings from a template. Also it is possible to colorize parts with ANSI codes with the help of the ansiPHP class.",
     "autoload": {
         "psr-4": {
             "Chrissileinus\\Template\\": "src/"
@@ -14,13 +14,7 @@
             "email": "chrissileinus@googlemail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://gitlab.com/chrissileinus/ansiPHP"
-        }
-    ],
     "require": {
-        "chrissileinus/ansi-php": ">=0.1.0"
+        "chrissileinus/ansi-php": "dev-master"
     }
 }

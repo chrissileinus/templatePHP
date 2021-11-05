@@ -14,6 +14,13 @@ class Str
   public static $left = '{';
   public static $right = '}';
 
+  /**
+   * replace
+   *
+   * @param  string $template
+   * @param  array $replacements
+   * @return string
+   */
   public static function replace(string $template, array ...$replacements): string
   {
     $replacements = array_replace_recursive([], ...$replacements);
