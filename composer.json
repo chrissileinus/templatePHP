@@ -2,7 +2,7 @@
     "name": "chrissileinus/template-php",
     "type": "library",
     "license": "MIT",
-    "description": " template engine to generate strings from a template. Also it is prossible to colorize parts with ANSI codes with the help of the ansiPHP",
+    "description": "A template engine to generate strings from a template. Also it is prossible to colorize parts with ANSI codes with the help of the ansiPHP class.",
     "autoload": {
         "psr-4": {
             "Chrissileinus\\Template\\": "src/"
