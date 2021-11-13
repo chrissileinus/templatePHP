@@ -11,14 +11,27 @@ namespace Chrissileinus\Template;
 
 class Str
 {
-  public static $left = '{';
-  public static $right = '}';
+  protected static $left = '{';
+  protected static $right = '}';
+
+  /**
+   * placeholders
+   *
+   * @param string $left
+   * @param string $right
+   * @return void
+   */
+  public static function placeholders(string $left, string $right)
+  {
+    self::$left = substr($left, 0);
+    self::$right = substr($right, 0);
+  }
 
   /**
    * replace
    *
    * @param  string $template
-   * @param  array $replacements
+   * @param  array ...$replacements
    * @return string
    */
   public static function replace(string $template, array ...$replacements): string
@@ -34,11 +47,25 @@ class Str
     return $result;
   }
 
+  /**
+   * replaceF is copy of replaceFormat
+   *
+   * @param string $template
+   * @param array ...$replacements
+   * @return string
+   */
   public static function replaceF(string $template, array ...$replacements): string
   {
     return self::replaceFormat($template, ...$replacements);
   }
 
+  /**
+   * replaceFormat
+   *
+   * @param string $template
+   * @param array ...$replacements
+   * @return string
+   */
   public static function replaceFormat(string $template, array ...$replacements): string
   {
     //Performance: if there are no '%' fallback to self::string

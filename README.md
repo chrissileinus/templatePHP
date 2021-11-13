@@ -10,7 +10,10 @@ On the search of a simple template engine to generate some output on the bash i 
 
 ### replace
 
-Placeholders are delimited by default by `{` and `}`, but you can specify others through the class constructor.
+Placeholders are delimited by default by `{` and `}`, but you can specify others by `Str::placeholders()`.
+```php
+Chrissileinus\Template\Str::placeholders('a', 'b');
+```
 
 If array key is not specified then write the index into the template.
 
