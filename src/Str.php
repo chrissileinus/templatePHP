@@ -9,6 +9,8 @@
 
 namespace Chrissileinus\Template;
 
+use \Chrissileinus\Ansi;
+
 class Str
 {
   protected static $left = '{';
@@ -95,7 +97,7 @@ class Str
             }
             $ansis[] = $code;
           }
-          $tmp = \Chrissileinus\Ansi\Text::inject($tmp, ...$ansis);
+          $tmp = Ansi\Text::inject($tmp, ...$ansis);
         }
 
         return $tmp;
@@ -122,7 +124,7 @@ class Str
             }
             $ansis[] = $code;
           }
-          $tmp = \Chrissileinus\Ansi\Text::inject($tmp, ...$ansis);
+          $tmp = Ansi\Text::inject($tmp, ...$ansis);
         }
 
         return $tmp;

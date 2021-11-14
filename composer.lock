@@ -4,47 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4bd5a7e7c1d71371bfc35dc401595703",
+    "content-hash": "7d06574131ebce0eabfb693eab1558e3",
     "packages": [
         {
             "name": "chrissileinus/ansi-php",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/chrissileinus/ansiPHP.git",
-                "reference": "c25c3450072da5fb84092d98fcb8ca15533a535d"
+                "url": "https://github.com/chrissileinus/ansiPHP.git",
+                "reference": "393200c6b41f4b6e81fc5355f6b4e9c5b96925ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/chrissileinus%2FansiPHP/repository/archive.zip?sha=c25c3450072da5fb84092d98fcb8ca15533a535d",
-                "reference": "c25c3450072da5fb84092d98fcb8ca15533a535d",
+                "url": "https://api.github.com/repos/chrissileinus/ansiPHP/zipball/393200c6b41f4b6e81fc5355f6b4e9c5b96925ad",
+                "reference": "393200c6b41f4b6e81fc5355f6b4e9c5b96925ad",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Chrissileinus\\Ansi\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "chrissileinus",
                     "email": "chrissileinus@googlemail.com"
                 }
             ],
+            "description": "A simple Library with static classes they generate ANSI Control Sequences and return the code as a string.",
             "support": {
-                "issues": "https://gitlab.com/api/v4/projects/30778519/issues"
+                "issues": "https://github.com/chrissileinus/ansiPHP/issues",
+                "source": "https://github.com/chrissileinus/ansiPHP/tree/0.1.0"
             },
-            "time": "2021-11-03T06:16:53+00:00"
+            "time": "2021-11-03T12:15:03+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "chrissileinus/ansi-php": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
