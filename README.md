@@ -8,13 +8,14 @@ On the search of a simple template engine to generate some output on the bash i 
 
 ## Usage
 
-### replace
+### placeholders
 
 Placeholders are delimited by default by `{` and `}`, but you can specify others by `Str::placeholders()`.
 ```php
 Chrissileinus\Template\Str::placeholders('a', 'b');
 ```
 
+### replace
 If array key is not specified then write the index into the template.
 
 ```php
