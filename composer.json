@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "chrissileinus/ansi-php": "^0.1.0"
+        "chrissileinus/ansi-php": "dev-master"
     }
 }
